@@ -7,7 +7,8 @@
 		"prebuild": "rimraf build",
 		"build": "webpack --config ./configs/webpack/app.js --env.production",
 		"dev": "webpack-dev-server --config ./configs/webpack/app.js",
-		"test": "jest --config=./configs/jest/config.js"
+		"test": "jest --config=./configs/jest/config.js",
+		"test:watch": "npm run test -- --watch"
 	},
 	"author": "",
 	"license": "UNLICENSED",
