@@ -6,7 +6,7 @@ import useFetch from 'libs/use-fetch/use-fetch';
 import { withAuth } from 'libs/use-auth/use-auth';
 
 const investmentsQuery: Partial<api.InvestementsListQuery> = {
-	page: 1,
+	page: 0,
 	perPage: 10,
 };
 
